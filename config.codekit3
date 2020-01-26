@@ -16,6 +16,13 @@
 		"oAP": "/about.html",
 		"oF": 0
 		},
+	"/angular.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/angular.html",
+		"oF": 0
+		},
 	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -333,6 +340,17 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/img/angular-quiz.jpg": {
+		"ft": 16384,
+		"iS": 21206,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/angular-quiz.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/hero_bg_1.jpg": {
 		"ft": 16384,
 		"iS": 17521,
@@ -493,6 +511,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/person_7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/todos.jpg": {
+		"ft": 16384,
+		"iS": 18239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/todos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/vue-js.jpg": {
+		"ft": 16384,
+		"iS": 11191,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/vue-js.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -773,6 +813,13 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"/vue.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/vue.html",
+		"oF": 0
 		}
 	},
 "hooks": [
