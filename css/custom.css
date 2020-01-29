@@ -1,1 +1,43 @@
 /* Your custom css code goes here */
+
+.dropdown-text {
+  font-weight: 300;
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  color: #ff7676 !important;
+  margin-left: 10px;
+}
+
+.dropdown {
+  color: #fff;
+  display: inline-block !important;
+}
+
+.button-space {
+  margin-bottom: 3px;
+}
+
+.probootstrap-intro {
+  height: 700px;
+}
+.js-next {
+  color: #fff;
+}
+.my-skills {
+  padding-bottom: 50px;
+}
+.benefits {
+  padding-top: 50px;
+}
+.scrollUp {
+  margin: 0 auto;
+  text-align: center;
+}
+.contact-button {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.more-about-me {
+  margin-top: 0px;
+}
