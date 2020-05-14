@@ -18,20 +18,16 @@
 }
 
 .probootstrap-intro {
-  height: 700px;
+  height: 560px;
 }
 .js-next {
   color: #fff;
 }
 .my-skills {
-  padding-bottom: 50px;
+  padding: 0px !important ;
 }
 .benefits {
   padding-top: 50px;
-}
-.scrollUp {
-  margin: 0 auto;
-  text-align: center;
 }
 .contact-button {
   margin: 0 auto;
@@ -40,4 +36,52 @@
 
 .more-about-me {
   margin-top: 0px;
+}
+.centeredRow {
+  flex: 1;
+  justify-content: center;
+}
+.connectFooter {
+  text-align: center;
+}
+.probootstrap-footer {
+  padding: 2em 0 2em;
+}
+.probootstrap-logo {
+  margin-top: 20px;
+  padding-left: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 300;
+}
+.probootstrap-header {
+  padding-top: 15px;
+}
+.navHeader {
+  padding-top: 15px;
+}
+.probootstrap-contact-info {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media screen and (max-width: 768px) {
+  .probootstrap-intro .probootstrap-intro-text {
+    height: inherit !important;
+    margin-top: inherit !important;
+    padding-left: 60px;
+    padding-right: 50px;
+  }
+}
+.probootstrap-contact-info,
+.with-icon {
+  padding: 0;
+  margin: 30px 25px 0px;
+}
+.description {
+  margin-top: 0px;
+}
+.skills {
+  text-align: center;
 }

@@ -25,7 +25,7 @@
   <body>
     <!-- START: header -->
     <header role="banner" class="probootstrap-header">
-      <div class="container-fluid">
+      <div class="container-fluid navHead">
         <a href="index.html" class="probootstrap-logo">Liz Kipp</a>
 
         <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
@@ -78,12 +78,10 @@
       data-stellar-background-ratio="0.5"
     >
       <div class="container-fluid">
-        <div class="row probootstrap-intro-text">
-          <div class="col-md-7">
+        <div class="row">
+          <div class="col-12 probootstrap-intro-text">
             <h1 class="probootstrap-animate">React Movie API</h1>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 probootstrap-subtitle probootstrap-animate">
+            <div class="probootstrap-subtitle probootstrap-animate">
               <h2>
                 A Movie API built using the MERN (MongoDB, Express, React, and
                 Node.js) stack and will allow users to access information about
@@ -101,7 +99,7 @@
     <section id="next-section" class="probootstrap-section">
       <div class="container">
         <div class="col-sm-4 col-sm-12">
-          <h2>Description</h2>
+          <h2 class="description">Description</h2>
           <p>
             This was my very first crack at REACT. Why use the word crack you
             ask? Because I almost did but also in a crack is wack kinda way. It
@@ -113,7 +111,6 @@
           </p>
           <div class="row">
             <div class="col-6">
-              <br />
               HTML <br />
               CSS <br />
               JavaScript<br />
@@ -121,7 +118,6 @@
               Bootstrap
             </div>
             <div class="col-6">
-              <br />
               NoSQL <br />
               MongoDB <br />
               Express <br />
@@ -129,11 +125,6 @@
               bcrypt
             </div>
           </div>
-
-          <p class="mb50">
-            <strong class="probootstrap-black-color">Course</strong> <br />
-            Career Foundry's Full Stack Bootcamp<br />Advanced React
-          </p>
           <a
             href="https://liz-flix.herokuapp.com/client"
             role="button"
@@ -206,16 +197,11 @@
     <!-- START: footer -->
     <footer role="contentinfo" class="probootstrap-footer">
       <div class="container">
-        <div class="row">
-          <div class="scrollUp">
-            <a href="#next-section">Scroll up<i class="icon-chevron-up"></i></a>
-          </div>
-        </div>
-        <div class="row">
+        <div class="row centeredRow">
           <div class="col-md-4">
             <div class="probootstrap-footer-widget">
-              <h3>Connect With Me</h3>
-              <ul class="probootstrap-footer-social">
+              <h3 class="connectFooter">Let's Connect</h3>
+              <ul class="probootstrap-footer-social connectFooter">
                 <li>
                   <a href="https://www.linkedin.com/in/elizabethsn7/"
                     ><i class="icon-linkedin"></i
