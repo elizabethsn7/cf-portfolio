@@ -85,3 +85,10 @@
 .skills {
   text-align: center;
 }
+.probootstrap-section {
+  padding: 4em 0;
+}
+.profilePic {
+  max-width: 225px;
+  border-radius: 50%;
+}
